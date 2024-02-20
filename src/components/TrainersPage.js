@@ -51,13 +51,14 @@ const TrainersPage = () => {
       imageAlt: 'Gyan',
       name: 'Gyan Bahadur Tamang',
       description: '"Meet our Oracle Certified trainer, equipped with over a decade of comprehensive industry experience. With a proven track record of success, they offer invaluable insights and expertise to guide learners towards mastery in Oracle technologies.',
+    
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/pradeep.jpg',
       imageAlt: 'Pradeep',
       name: 'Pradeep Aryal',
       description: 'Mr Aryal holds a Master degree from Germany in Machine Learning and Data Science. He is working as data analyst and Machine learning engineer since last decade.',
-    },
+      },
     
     // Add more trainer profiles as needed
   ];
