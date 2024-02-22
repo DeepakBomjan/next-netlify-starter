@@ -13,6 +13,10 @@ import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
 import DevOps from './Syllabus/DevOps';
 import DataAnalytics from './Syllabus/DataAnalytics';
+import AwsSolutionArchitect from './Syllabus/AwsSolutionArchitect';
+import AwsDeveloperAssociate from './Syllabus/AwsDeveloperAssociate';
+import PythonWithDjango from './Syllabus/PythonWithDjango';
+import MernSyllabus from './Syllabus/MernSyllabus';
 import About from './pages/About';
 
 function App() {
@@ -45,6 +49,10 @@ function App() {
             <Route path="/trainers" element={<TrainersPage/>} />
             <Route path="/Syllabus/DevOps" element={<DevOps/>} />
             <Route path="/Syllabus/DataAnalytics" element={<DataAnalytics/>} />
+            <Route path="/Syllabus/MernSyllabus" element={<MernSyllabus/>} />
+            <Route path="/Syllabus/AwsDeveloperAssociate" element={<AwsDeveloperAssociate/>} />
+            <Route path="/Syllabus/AwsSolutionArchitect" element={<AwsSolutionArchitect/>} />
+            <Route path="/Syllabus/PythonWithDjango" element={<PythonWithDjango/>} />
             {/* Remove the duplicate route for "/home" */}
          </Routes>
         </ScrollToTop>

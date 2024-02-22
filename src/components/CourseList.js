@@ -33,6 +33,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 30000',
       startDate: '20th Falgun',
+      syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     
@@ -43,6 +44,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
      // price: 'Rs 30000',
       startDate: '27th Falgun',
+      syllabusUrl: '/Syllabus/AwsSolutionArchitect',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
   
@@ -62,6 +64,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
      // price: 'Rs 40000',
       startDate: '27 th Falgun',
+      syllabusUrl: '/Syllabus/MernSyllabus',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
    
@@ -92,6 +95,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 30000',
       startDate: '20th Falgun',
+      syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -101,6 +105,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 30000',
       startDate: 'Coming Soon',
+      syllabusUrl: '/Syllabus/PythonWithDjango',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
