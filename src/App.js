@@ -11,8 +11,7 @@ import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
-import DevOps from './Syllabus/DevOps';
-import DataAnalytics from './Syllabus/DataAnalytics';
+import Syllabusmap from './Syllabusmap';
 import About from './pages/About';
 
 function App() {
@@ -42,10 +41,8 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/courselist" element={<CourseList />} />
             <Route path="/about" element={<About />} />
+            <Route path="/syllabus/:subject" element={<Syllabusmap/>} />
             <Route path="/trainers" element={<TrainersPage/>} />
-            <Route path="/Syllabus/DevOps" element={<DevOps/>} />
-            <Route path="/Syllabus/DataAnalytics" element={<DataAnalytics/>} />
-            {/* Remove the duplicate route for "/home" */}
          </Routes>
         </ScrollToTop>
       </Router>
