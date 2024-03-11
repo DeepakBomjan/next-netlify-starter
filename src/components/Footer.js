@@ -17,7 +17,7 @@ const Footer = () => {
                             <h3 className="font-bold text-4xl mb-4">N9 Solution</h3>
                             <div className='text-md font-medium text-gray-600'>
                                 <h5>Chabahil (White House Building)</h5>
-                                <p>Kathamndu,Bagmati</p>
+                                <p>Kathmandu,Bagmati</p>
                                 <p>Nepal,</p>
                                 <p>Bagmati State.</p>
                             </div>

@@ -11,9 +11,19 @@ const CourseList = () => {
       title: 'DeVOps',
       description: '',
       //price: 'Rs 25000',
-      startDate: '24th Falgun',
+      courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
       syllabusUrl: '/Syllabus/DevOps'
+    },
+    {
+      imageUrl: process.env.PUBLIC_URL + '/mern.jpg',
+      imageAlt: 'mern',
+      title: 'Full Stack MERN',
+      //description: 'Coming Soon',
+     // price: 'Rs 40000',
+      courseDuration: '2 Months',
+      syllabusUrl: '/Syllabus/MernSyllabus',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/dotnet.jpg',
@@ -21,7 +31,7 @@ const CourseList = () => {
       title: 'ASP .NET',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '27th Falgun',
+      courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -30,7 +40,7 @@ const CourseList = () => {
       title: 'Data Analytics and ML',
       //description: 'Coming Soon',
       //price: 'Rs 25000',
-      startDate: '27th Falgun',
+      courseDuration: '2 Months',
       syllabusUrl: '/Syllabus/DataAnalytics',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -41,7 +51,7 @@ const CourseList = () => {
       title: 'AWS-Developer-Associate',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '27th Falgun',
+      courseDuration: '2 Months',
       syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -52,7 +62,7 @@ const CourseList = () => {
       title: 'AWS-Solution-Associate',
       //description: 'Coming Soon',
      // price: 'Rs 30000',
-      startDate: '27th Falgun',
+     courseDuration: '2 Months',
       syllabusUrl: '/Syllabus/AwsSolutionArchitect',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -63,19 +73,10 @@ const CourseList = () => {
       title: 'RHEL',
       //description: 'Coming Soon',
       //price: 'Rs 25000',
-      startDate: '27th Falgun',
+      courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/mern.jpg',
-      imageAlt: 'mern',
-      title: 'Full Stack MERN',
-      //description: 'Coming Soon',
-     // price: 'Rs 40000',
-      startDate: '27 th Falgun',
-      syllabusUrl: '/Syllabus/MernSyllabus',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
+    
    
     {
       imageUrl: process.env.PUBLIC_URL + '/digitalmarketing.jpg',
@@ -83,7 +84,7 @@ const CourseList = () => {
       title: 'Digital Marketing',
       //description: 'Coming Soon',
       //price: 'Rs 20000',
-      startDate: 'Coming Soon',
+      courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
       {
@@ -92,7 +93,7 @@ const CourseList = () => {
       title: 'Java',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: 'Coming Soon',
+      courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     
@@ -103,7 +104,7 @@ const CourseList = () => {
       title: 'AWS-Developer-Associate',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '20th Falgun',
+      courseDuration: '2 Months',
       syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -113,7 +114,7 @@ const CourseList = () => {
       title: 'Python with Django',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: 'Coming Soon',
+      courseDuration: '2.5 Months',
       syllabusUrl: '/Syllabus/PythonWithDjango',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -123,7 +124,7 @@ const CourseList = () => {
       title: 'Laravel',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: 'Coming Soon',
+      courseDuration: '2.5 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -132,7 +133,7 @@ const CourseList = () => {
       title: 'PHP MySQL',
       //description: 'Coming Soon',
      // price: 'Rs 30000',
-      startDate: 'Coming Soon',
+     courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
 
@@ -142,7 +143,7 @@ const CourseList = () => {
       title: 'AWS',
       //description: 'Coming Soon',
      // price: 'Rs 25000',
-      startDate: '20th Falgun',
+     courseDuration: '1.5 Months',
       syllabusUrl: '/Syllabus/Aws',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },

@@ -23,7 +23,7 @@ const Card = (props) => {
         <div className="font-bold text-xl mb-2">{props.title}</div>
         <p className="text-gray-700 text-base">{props.description}</p>
         <div className="mt-4">
-          <p className="text-green-900 text-base">Starting Date: {props.startDate}</p>
+          <p className="text-green-900 text-base">Course Duration: {props.courseDuration}</p>
         </div>
       </div>
       <div className="px-6 py-4">
@@ -41,7 +41,7 @@ const Card = (props) => {
           Enroll Now
         </button>
       </div>
-    </div>
+    </div> 
   );
 };
 

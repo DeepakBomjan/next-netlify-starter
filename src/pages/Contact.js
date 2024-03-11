@@ -29,7 +29,7 @@ const Contact = () => {
                                 <i className="fas fa-phone-alt text-blue-900 mr-2"></i>
                                 <div>
                                     <h2 className="text-xl font-bold">Call Us</h2>
-                                    <p className="text-gray-700">Tel: +977-9860236249</p>
+                                    <p className="text-gray-700">Tel: +977-9851359759</p>
                                 </div>
                             </div>
                             <div className="flex items-center mb-4">

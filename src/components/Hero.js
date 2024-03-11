@@ -33,21 +33,15 @@ const Hero = () => {
             <NavBar />
             <div className="m-auto mx-4 mt-24 lg:mt-4 p-2 md:p-12" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
-                    <div
-                        className="lg:w-1/2 relative bg-blue-200 lg:bg-transparent py-8 rounded-lg overflow-hidden"
-                        data-aos="zoom-in" data-aos-delay="200"
-                        onMouseEnter={() => setHovered(true)}
-                        onMouseLeave={() => setHovered(false)}
-                    >
-                        <img src={heroImage} alt="Hero" className="rounded-lg w-full" />
-                        {hovered && (
-                            <a href="https://forms.gle/7EpqaZr8ER23gz596" target='_blank' className="absolute inset-0 flex items-center justify-center bg-blue-500 bg-opacity-75 text-white text-2xl font-bold rounded-lg transition duration-300 ease-in-out">
-                                Enroll Now
-                            </a>
-                        )}
-                        <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
-                            <h1 className="text-3xl font-bold mb-4">Together</h1>
-                            <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
+                    <div className="lg:w-1/2 flex flex-col justify-center items-center bg-blue-200 lg:bg-transparent py-8 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <div className="max-w-lg w-full p-8 text-white text-center rounded-lg">
+                            {/* Display dynamic hero image */}
+                           <img src={heroImage} alt="Hero" className="rounded-lg w-full" />
+                    </div>
+                        <br></br>
+                        <div className="max-w-lg w-full p-8 bg-blue-500 text-white text-center rounded-lg">
+                           <h1 className="text-3xl font-bold mb-4">Together</h1>
+                           <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
                         </div>
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
                             <p className="text-sm mt-2">Are you ready to embark on an enlightening journey into the realms of DevOps, Cloud Computing, Microservices, and Serverless Technologies? 🌐💻 Join us for an exclusive workshop on February 19th, from 13:00 to 15:00 (GMT), at the White House Building (5th floor), Ganesthan, Chabahil.
