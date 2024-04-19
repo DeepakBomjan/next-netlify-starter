@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NavBar from '../components/Navbar/NavBar';
-import CourseCard from './CourseCard';
-
-const Hero = () => {
+const Hero = () => {    
+    const handleEnrollNowClick = () => {
+        // Redirect to Google Form registration page
+        window.open('https://forms.gle/in86LKYEFJRimao1A', '_blank');
     const [heroImage, setHeroImage] = useState("./awsonline.jpg"); // Initial image source
     const [hovered, setHovered] = useState(false);
 
@@ -27,10 +28,30 @@ const Hero = () => {
     const changeHeroImage = (newImage) => {
         setHeroImage(newImage);
     };
-
+    
     return (
-        <div className="hero" id='hero'>
+        <>
+            <br />
+            <br />
+            <br />
             <NavBar />
+            <div className="w-screen h-screen text-white" style={{
+                background: "#5184d6"
+            }}>
+                <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col lg:flex-row">
+                    <div className="text-center lg:w-1/2">
+                        <div className="ml-6">
+                            <h1 className="my-4 text-5xl font-bold leading-tight">
+                                Welcome to Nnine Training Center
+                            </h1>
+                            <p className="text-2xl mb-8">
+                                Enroll now and get discount up 40% on the occasion on New Year 2081.
+                            </p>
+                            <button
+                                onClick={handleEnrollNowClick}
+                                className="hover:bg-red-200 bg-white text-gray-800 font-bold rounded-full py-4 px-8">
+                                Enroll Now
+                            </button>
             <div className="m-auto mx-4 mt-24 lg:mt-4 p-2 md:p-12" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                     <div
@@ -52,33 +73,12 @@ const Hero = () => {
                         </div>
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
                             <p className="text-sm mt-2">
-                            🔗 Register Here: https://forms.gle/7EpqaZr8ER23gz596</p>
+                             Register Here: https://forms.gle/7EpqaZr8ER23gz596</p>
                         </div>
                     </div>
-
-                    <div className="lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                        <div className="text-left p-4">
-                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Upcoming Classes:</h1>
-                            <div>
-                                {coursesToDisplay.map((course, index) => (
-                                    <CourseCard key={index} course={course} />
-                                ))}
-                            </div>
-                        </div>
-                        {!showAll && (
-                            <div className="text-center mt-4">
-                                {comingSoonCourses.length > 6 && (
-                                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={toggleShowAll}>See More</button>
-                                )}
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className="text-center mt-8">
-                    {/* Additional content below courses if needed */}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

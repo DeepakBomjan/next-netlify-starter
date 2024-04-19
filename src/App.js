@@ -16,9 +16,13 @@ import DataAnalytics from './Syllabus/DataAnalytics';
 import AwsSolutionArchitect from './Syllabus/AwsSolutionArchitect';
 import AwsDeveloperAssociate from './Syllabus/AwsDeveloperAssociate';
 import PythonWithDjango from './Syllabus/PythonWithDjango';
+import EthicalHackingSyllabus from './Syllabus/EthicalHackingSyllabus';
 import MernSyllabus from './Syllabus/MernSyllabus';
 import AWSPractitionerSyllabus from './Syllabus/AWSPractitionerSyllabus';
+import WebDesignSyllabus from './Syllabus/WebDesignSyllabus';
+import CPlusPlusSyllabus from './Syllabus/CPlusPlus';
 import About from './pages/About';
+import ComputerBasicsSyllabus from './Syllabus/ComputerBasicsSyllabus';
 
 function App() {
   useEffect(() => {
@@ -54,6 +58,10 @@ function App() {
             <Route path="/Syllabus/AwsDeveloperAssociate" element={<AwsDeveloperAssociate/>} />
             <Route path="/Syllabus/AwsSolutionArchitect" element={<AwsSolutionArchitect/>} />
             <Route path="/Syllabus/PythonWithDjango" element={<PythonWithDjango/>} />
+            <Route path="/Syllabus/CPlusPlusSyllabus" element={<CPlusPlusSyllabus/>} />
+            <Route path="/Syllabus/EthicalHackingSyllabus" element={<EthicalHackingSyllabus/>} />
+            <Route path="/Syllabus/WebDesignSyllabus" element={<WebDesignSyllabus/>} />
+            <Route path="/Syllabus/ComputerBasicsSyllabus" element={<ComputerBasicsSyllabus/>} />
             <Route path="/Syllabus/AWSPractitionerSyllabus" element={<AWSPractitionerSyllabus/>} />
             {/* Remove the duplicate route for "/home" */}
          </Routes>

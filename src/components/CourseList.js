@@ -16,7 +16,16 @@ const CourseList = () => {
       syllabusUrl: '/Syllabus/DevOps'
     },
     {
-
+      imageUrl: process.env.PUBLIC_URL + '/cplusplus.jpeg',
+      imageAlt: 'C++',
+      title: 'C++',
+      description: '',
+      //price: 'Rs 25000',
+      courseDuration: '2 Months',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
+      syllabusUrl: '/Syllabus/CPlusPlusSyllabus'
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/AWSCloudPractitioner.jpeg',
       imageAlt: 'AWS-Cloud-Practitioner',
       title: 'AWS Cloud Practitioner',
@@ -98,6 +107,46 @@ const CourseList = () => {
       courseDuration: '2 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
+    {
+      imageUrl: process.env.PUBLIC_URL + '/ethical.jpeg',
+      imageAlt: 'EthicalHacking',
+      title: 'Ethical Hacking',
+      //description: 'Coming Soon',
+      //price: 'Rs 20000',
+      courseDuration: '1.5 Months',  
+      syllabusUrl: '/Syllabus/EthicalHackingSyllabus',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
+       },
+       {
+        imageUrl: process.env.PUBLIC_URL + '/webdesign.jpeg',
+        imageAlt: 'WebDesign',
+        title: 'Web Design',
+        //description: 'Coming Soon',
+        //price: 'Rs 20000',
+        courseDuration: '1.5 Months',  
+        syllabusUrl: '/Syllabus/WebDesignSyllabus',
+        googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
+         },
+         {
+          imageUrl: process.env.PUBLIC_URL + '/computerbasics.png',
+          imageAlt: 'computerbasics',
+          title: 'Computer Basics',
+          //description: 'Coming Soon',
+          //price: 'Rs 20000',
+          courseDuration: '1.5 Months',  
+          syllabusUrl: '/Syllabus/ComputerBasicsSyllabus',
+          googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
+           },
+           {
+            imageUrl: process.env.PUBLIC_URL + '/redhatopenshiftdevI.png',
+            imageAlt: 'redhatopen',
+            title: 'Redhat Openshift Dev-I',
+            //description: 'Coming Soon',
+            //price: 'Rs 20000',
+            courseDuration: '1.5 Months',  
+            syllabusUrl: '/Syllabus/RedHatOpenShiftDevISyllabus',
+            googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
+             },
       {
       imageUrl: process.env.PUBLIC_URL + '/java.jpg',
       imageAlt: 'java',
